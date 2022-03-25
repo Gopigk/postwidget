@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Widget Testing HTML</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    />
+    <style>
+      html,
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: wheat;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body class="d-flex flex-column align-items-start h-100 w-100">
+    <button class="pjuge btn btn-sm btn-light" id="WidgetID">Widget</button>
+    <!-- <script src="https://widgets.hellonext.co/HNWidget.js"></script> -->
+    <script src="https://royalenfield.hellonext.co/widget.js"></script>
+    <script>
+      HNWidget.init({
+        token: "eoJpZ0scrtNGpm2GEU4rug",
+        selector: "#widgetID",
+        placement: "right",
+        // showOnlySubmission: false, // Optional: Toggle for showing only submission form
+      });
+    </script>
+  </body>
+</html>
