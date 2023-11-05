@@ -7,4 +7,5 @@
 - [ ] Review your code by yourself
 - [ ] Code review done by reviewer
 - [ ] Code review changes
+- [ ] Test your code
 - [ ] Update README if requires (optional)
