@@ -1,0 +1,6 @@
+- [x] Link a linear issue
+- [ ] Review your code by yourself
+- [ ] Code review done by reviewer
+- [ ] Code review changes
+- [ ] Update README if requires (optional)
+- [ ] Add respective labels
